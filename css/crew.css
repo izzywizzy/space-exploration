@@ -94,3 +94,6 @@ ul.navbar-nav li .active{
 .crew-info p{
     padding-right: 13em;
 }
+.carousel-indicators{
+    justify-content: left;
+}
