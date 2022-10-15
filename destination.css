@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Barlow condensed', sans-serif;
+}
+
+body {
+  background: url(./assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  padding-top: 15px;
+}
+
+nav img {
+  width: 30px;
+}
+.nav-bar {
+  background-color: hsla(230, 35%, 7%,0.5);
+  width: 1000px;
+  padding-top: 8px;
+  height: 40px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  padding: 40px;
+  position: relative;
+
+}
+
+.top-hr {
+  color: white;
+  border-width: 1px;
+  margin-top: 14px;
+  width: 400px;
+  position: relative;
+  left: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.right-side {
+  padding-left: 100px;
+  margin-top: 100px;
+  width: 650px;
+  padding-right: 100px;
+}
+.left-side {
+  margin-top: 100px;
+}
+
+.moon {
+  height: 300px;
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-side-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 6px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Bellefair', serif;
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 9px;
+}
+p {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+}
+h3 {
+  color: white;
+}
+.down p {
+  font-size: 15px;
+}
+.left-side p {
+  font-weight: 200;
+}
+span {
+  color: gray;
+}
+
+ .underline {
+  border-bottom: 1px solid white;
+  width: 5px;
+ }
