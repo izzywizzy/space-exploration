@@ -97,3 +97,33 @@ ul.navbar-nav li .active{
 .carousel-indicators{
     justify-content: left;
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    body{
+        background-image: url(../assets/crew/background-crew-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* .line {width: 60%;} */
+
+    hr{
+        color: white;
+    border-width: 2px;
+    margin-top: 5%;
+    width: 10em;
+    position: relative;
+    left:1.5em;
+    }
+
+    ul.navbar-nav li{
+            padding: 0 20px;  
+            font-family: 'Barlow Condensed', sans-serif;
+            font-style: normal;
+            text-transform: uppercase;
+            line-height: 1.7;
+            font-size: 14px;
+          } 
+
+  }
+  
