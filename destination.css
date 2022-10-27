@@ -117,3 +117,25 @@ span {
  .down-right {
   margin-left: 100px;
  }
+
+
+ 
+ @media (max-width:480px) {
+  
+  
+.content {
+  display: block;
+  
+}
+
+.nav-bar {
+  visibility: hidden;
+}
+.top-hr{
+  visibility: hidden;
+}
+.moon {
+  height: 200px;
+}
+
+}
